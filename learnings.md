@@ -1,7 +1,19 @@
+
+
+
+Need to do
+
+Eslint proper-  https://www.robinwieruch.de/vite-eslint/
+React Transition - https://reactcommunity.org/react-transition-group/transition
+
+
+
+
+
         IF YOU DO PROPER PLANNING YOU WRITE AWESOME CODE - Allready will have a structure in  head
         Dont ceate a mess do proper planning
 
-1. REQUIREMENTS CLARIFICATIONS - Chapter -14 -39.12
+1. REQUIREMENTS CLARIFICATIONS - Chapter -16 -1:38:06
 
    ( 5 MINUTES )
    Features
