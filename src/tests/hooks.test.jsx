@@ -3,7 +3,7 @@ import * as React from "react"
 import { renderHook, waitFor } from "@testing-library/react"
 import { server } from "../setupTests"
 import { createWrapper } from "./utils"
-import { useRepoData } from "../hooks"
+import { useRepoData } from "../useRepoData"
 import * as axios from "axios"
 
 jest.mock("axios")

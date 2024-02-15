@@ -6,6 +6,9 @@ import Body from "./components/Body"
 import Head from "./components/Head"
 import MainContainer from "./components/MainContainer"
 import WatchPage from "./components/WatchPage"
+import { useRepoData } from "./useRepoData"
+import ReactQueryApp from "./ReactQueryApp"
+
 // import FormChallenge from "./components/FormChallenge"
 
 // Lazy is for dynamic import
@@ -13,6 +16,10 @@ const FormChallenge = lazy(() => import("./components/FormChallenge"))
 
 const Shimmer = () => {
   return <h1>This is a Shimmer</h1>
+}
+
+const TestQuery = () => {
+  return <>TestQuery</>
 }
 
 const appRouter = createBrowserRouter([
@@ -28,6 +35,11 @@ const appRouter = createBrowserRouter([
         path: "/watch",
         element: <WatchPage />,
       },
+      {
+        path: "/query",
+        element: <ReactQueryApp />,
+      },
+
       {
         path: "/challenges",
         element: (
